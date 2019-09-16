@@ -1,0 +1,129 @@
+html, body { height: 100%; padding: 0; margin: 0; }
+.div { width: 50%; height: 50%; float: left; padding:5px; background: #FFFAFA;}
+#div5 { 
+    width: 450px;
+    height: 225px;
+    background: #FFFAFA	;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.text-container {
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: 0.3s;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container:hover {
+    background: #FFFAFA	;
+}
+
+.section-info {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-container {
+    width: 200px;
+    margin: auto;
+    position: relative;
+    margin: 0px auto;
+}
+
+.image-half {
+    width: 100px;
+}
+
+.img-container-pill-buddy {
+    height: 50px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+    margin: 0px auto;
+}
+
+.section-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* #section-container, #souv-container, #dok-container, #pill-container {
+    display: none;
+} */
+
+.personal-info-container {
+    /* padding: 10px; */
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.pill-image {
+    transform: scale(0.4);
+}
+
+.souv-image {
+    transform: scale(0.5);
+}
+
+#debate-container {
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./img/Speech and Debate/SpeechDebateTeamPhoto.JPG');
+    background-size: cover;
+    transition: 1s;
+}
+
+#pill-buddy-container {
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./img/PillBuddy/OpeningImage.JPG');
+    background-size: cover;
+    transition: 1s;
+}
+
+#doknosis-container {
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./img/Doknosis/Prototype.png');
+    background-size: cover;
+    transition: 1s;
+}
+
+#souvenear-container {
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./img/SouveNear/Souvenear Display.png');
+    background-size: cover;
+    transition: 1s;
+}
+
+.section-title {
+    color: #FFFAFA;
+    font-size: 24px;
+}
+
+.section-subtitle {
+    color: #FFFAFA;
+    font-size: 18px;
+}
+
+.profile-image-container {
+    width: 40%;
+}
+
+.profile-info {
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.profile-description-container {
+    width: 60%;
+}
