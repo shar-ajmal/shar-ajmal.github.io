@@ -1,4 +1,4 @@
-$(window).on("load", function() {
+$(document).ready(function() {
     console.log("hello world");
     $('#debate-container').mouseover(function() {
         $('#section-container').stop().fadeIn(300);
